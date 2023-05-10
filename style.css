@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ddd;
+    margin: none;
+}
+
+
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%
+}
+
+#rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 200px;
+}
+
+#canvas {
+    min-height: 550px;
+    min-width: 1000px;
+    font-size: 10px;
+}
+
+
+.tile:hover {
+    fill: #ddd;
+}
+
+
+g {
+    color: #333;
+}
+
+#tooltip {
+    visibility: hidden;
+    min-height: 160px;
+    width: 200px;
+    color: #ddd;
+    font-size: 20px;
+    text-align: center;
+}
+
+#tooltip hr {
+    width: '80%';
+    color: #ddd;
+    background-color: #ddd;
+    height: 1px;
+    border: none;
+}
+
+#description {
+    text-align: center;
+    color: #ddd;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#legend {
+    color: #ddd;
+    font-size: 18px;
+    text-align: center;
+    min-height: 280px;
+    max-width: 180px;
+}
+
+
+#title {
+    margin-top: 15px;
+    color: #ddd;
+    text-transform: capitalize;
+}
